@@ -1,0 +1,87 @@
+/* ИСПОЛЬЗУЮТСЯ ШРИФТЫ Galien, Gilroy  */
+
+header {
+    height: 100vh;
+    background: linear-gradient(0deg, #98c3e873 8.84%, rgba(152, 232, 221, 0) 31.12%);
+}
+.header-width {
+    width: 1300px;
+    margin: auto;
+}
+.top-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    padding-top: 50px;
+}
+.header-media {
+    display: flex;
+    justify-content: space-between;
+}
+.header-left {
+    width: 50%;
+  
+}
+.header-right {
+    background: url(/afrianska-landing/header-img/banner.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    width: 950px;
+    height: 680px;
+    
+}
+.clock-ic {
+    position: absolute;
+    left: 440px;
+    top: 100px;
+}
+.snowflake-ic {
+    position: absolute;
+    right: 220px;
+    top: 30px;
+}
+.camera-ic {
+    position: absolute;
+    right: 130px;
+    top: 30px;
+}
+.lamp-ic {
+    position: absolute;
+    right: 80px;
+    top: 100px;
+}
+h1 {
+    font-size: 64px;
+    font-family: galien;
+    color: #1F3F68;
+    margin-top: 50px;
+    letter-spacing: 0.04em;
+    position: relative;
+    left: 80px;
+    width: 510px;
+    z-index: 1;
+}
+.subtitle {
+    color: #1F3F68;
+    font-family: Gilroy;
+    width: 425px;
+    padding-left: 80px;
+    margin-bottom: 70px;
+}
+.button-header {
+    width: 220px;
+    height: 56px;
+    border-radius: 10px;
+    background-color: #5A98D0;
+    color: #fff;
+    font-family: gilroy;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin-left: 80px;
+}
+.container {
+    width: 940px;
+    margin: auto;
+}
