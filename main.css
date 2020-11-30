@@ -6,10 +6,12 @@ header {
 }
 .header-width {
     width: 1300px;
+    max-width: 100%;
     margin: auto;
 }
 .top-header {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     margin-bottom: 50px;
     padding-top: 50px;
@@ -29,7 +31,7 @@ header {
     position: relative;
     width: 950px;
     height: 680px;
-    
+    max-width: 100%;
 }
 .clock-ic {
     position: absolute;
@@ -66,11 +68,13 @@ h1 {
     color: #1F3F68;
     font-family: Gilroy;
     width: 425px;
+    max-width: 100%;
     padding-left: 80px;
     margin-bottom: 70px;
 }
 .button-header {
     width: 220px;
+    max-width: 100%;
     height: 56px;
     border-radius: 10px;
     background-color: #5A98D0;
@@ -83,6 +87,7 @@ h1 {
 }
 .container {
     width: 940px;
+    max-width: 100%;
     margin: auto;
     font-family: Gilroy;
 }
@@ -91,6 +96,7 @@ h1 {
 .title-cards {
     font-size: 36px;
     width: 227px;
+    max-width: 100%;
     color: #1F3F68;
     margin: 0;
     padding-top: 190px;
@@ -98,10 +104,12 @@ h1 {
 }
 .cards-section {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 .cards {
     width: 380px;
+    max-width: 100%;
     box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
     border-radius: 10px;
     margin-bottom: 100px;
@@ -109,6 +117,7 @@ h1 {
 }
 .cards-subtitle {
     width: 284px;
+    max-width: 100%;
     color: #1F3F68;
     padding-left: 48px;
     padding-bottom: 32px;
@@ -116,6 +125,7 @@ h1 {
 .cards-info {
     font-size: 20px;
     width: 267px;
+    max-width: 100%;
     color: #1F3F68;
     padding-left: 48px;
     padding-bottom: 16px;
@@ -149,6 +159,7 @@ h1 {
 }
 .text-block {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     margin-bottom: 96px;
 }
@@ -156,11 +167,13 @@ h1 {
     font-size: 36px;
     margin: 0;
     width: 227px;
+    max-width: 100%;
     color: #1F3F68;
 }
 .subtitle-app {
     margin: 0;
     width: 540px;
+    max-width: 100%;
     color: #1F3F68;
     font-size: 20px;
 }
@@ -193,11 +206,13 @@ h1 {
 }
 .two-block {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     padding-top: 100px;
 }
 .block-one {
     width: 422px;
+    max-width: 100%;
     border-radius: 10px;
     margin-bottom: 192px;
     height: 417px;
@@ -223,7 +238,7 @@ footer {
 }
 .top-line, .bottom-line {
     display: flex;
-  
+    flex-wrap: wrap;
     font-size: 20px;
     color: #fff;
 }
@@ -245,7 +260,7 @@ footer {
 }
 .table-item-4 {
     border-bottom: solid 2px;
-    padding: 30px;
+    padding: 40px;
 }
 .table-item-5 {
     border-right: solid 2px;
@@ -272,6 +287,7 @@ footer {
 .text-block-2 {
     display: flex;
     justify-content: space-between;
+    
     color: #fff;
     padding-top: 250px;
 }
@@ -281,10 +297,13 @@ footer {
 }
 .footer-top-subtitle {
     width: 540px;
+    max-width: 100%;
     margin: 0;
 }
 .table {
     margin: auto;
+    width: 940px;
+    max-width: 100%;
     padding-top: 100px;
 }
 .blue-footer {
@@ -296,26 +315,31 @@ footer {
 }
 .blue-footer-width {
     width: 940px;
+    max-width: 100%;
     margin: auto;
 }
 .footer-top-2 {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 .blue-footer-title {
     font-size: 36px;
     color: #fff;
     width: 317px;
+    max-width: 100%;
     margin: 0;
     padding-top: 100px;
 }
 .blue-footer-subtitle {
     width: 460px;
+    max-width: 100%;
     margin: 0;
     padding-top: 20px;
 }
 .footer-button {
     height: 56px;
+    max-width: 100%;
     width: 220px;
     background-color: #5A98D0;
     border-radius: 10px;
@@ -335,8 +359,10 @@ footer {
 .footer-bottom-info {
     display: flex;
     width: 940px;
+    max-width: 100%;
     margin: auto;
     padding-top: 50px;
+    flex-wrap: wrap;
     justify-content: space-between;
     
 }
@@ -349,6 +375,7 @@ footer {
 }
 .blocks-item p {
     width: 310px;
+    max-width: 100%;
     letter-spacing: 1px;
     margin-bottom: 20px;
     font-size: 20px
@@ -370,4 +397,223 @@ footer {
     text-align: center;
     padding-top: 50px;
     padding-bottom: 10px
+}
+
+
+
+@media only screen and (max-width:900px) {
+    body {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .table {
+        margin-top: 50px;
+        width: 50%;
+        margin-right: 100px;
+    }
+    .text-block-2 {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .footer-top-title {
+        padding-bottom: 20px;
+    }
+    .table-item-1, .table-item-2, .table-item-3, .table-item-4, .table-item-5, .table-item-6, .table-item-7, .table-item-8 {
+        border: none;
+        border: solid 1px;
+    }
+    .bottom-line {
+        padding-left: 4px;
+        padding-top: 40px
+    }
+    .table-item-1 {
+        margin-left: 4px;
+    }
+    .two-block {
+        justify-content: center;
+    }
+    .header-width {
+        max-width: 70%;
+    }
+    .cards-section {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .title-cards {
+        padding: 0;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        width: 100%;
+        text-align: center;
+    }
+    .cards {
+        margin-bottom: 50px;
+    }
+    .cards-img-2 {
+        
+    }
+    #one-1 {
+        margin-top: 150px;
+    }
+    .title-app {
+        width: 100%;
+        text-align: center;
+    }
+    .subtitle-app {
+        text-align: center;
+        margin: auto;
+        margin-top: 15px;
+    }
+    .app {
+        margin-top: 0;
+    }
+    .subtitle {
+       display: none;
+    }
+    h1 {
+        margin-top: 200px;
+        font-size: 45px;
+        text-align: center;
+    }
+    .button-header {
+        margin-left: 200px;
+    }
+}
+
+
+@media only screen and (max-width:700px) {
+    body {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .table {
+        margin-top: 50px;
+        width: 50%;
+        margin-right: 100px;
+    }
+    .text-block-2 {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .footer-top-title {
+        padding-bottom: 20px;
+    }
+    .table-item-1, .table-item-2, .table-item-3, .table-item-4, .table-item-5, .table-item-6, .table-item-7, .table-item-8 {
+        border: none;
+        border: solid 1px;
+    }
+    .bottom-line {
+        padding-left: 4px;
+        padding-top: 40px
+    }
+    .table-item-1 {
+        margin-left: 4px;
+    }
+    .two-block {
+        justify-content: center;
+    }
+    .block-one {
+        margin-bottom: 50px;;
+    }
+    .header-width {
+        max-width: 70%;
+    }
+    .cards-section {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .title-cards {
+        padding: 0;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        width: 100%;
+        text-align: center;
+    }
+    .cards {
+        margin-bottom: 50px;
+    }
+    .cards-img-2 {
+        
+    }
+    #one-1 {
+        margin-top: 150px;
+    }
+    .title-app {
+        width: 100%;
+        text-align: center;
+    }
+    .subtitle-app {
+        text-align: center;
+        margin: auto;
+        margin-top: 15px;
+    }
+    .app {
+        margin-top: 0;
+    }
+    .subtitle {
+       display: none;
+    }
+    h1 {
+        margin: auto;
+        position: absolute;
+        top: 50%;
+        color: 
+    }
+    .button-header {
+      display: none;
+    }
+    .blue-footer {
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 15px;
+    }
+    .blue-footer p {
+        font-size: 10px;
+        width: 50%;
+    }
+    .blocks-item {
+        width: 30%
+    }
+    .footer-bottom-gray-text {
+        margin: auto;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    h1 {
+        width: 70%;
+    }
+    .cards {
+        padding-left: 20px;
+        padding-right: 20px;
+        width: 80%;
+        margin-left: 30px
+    }
+    .info-banner {
+        text-align: center;
+        padding: 0;
+        margin-right: 10px;
+        position: relative;
+        top: 150px;
+    }
+    .banner-app {
+    
+    }
+    header {
+        width: 100%;
+    }
+    .table {
+        text-align: center;
+    }
+    .footer-top-title {
+        text-align: center;
+    }
+    .two-block {
+        width: 97%;
+        margin: auto;
+        
+    }
+    .container {
+        margin: auto;
+    }
 }

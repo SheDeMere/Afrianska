@@ -21,7 +21,7 @@ body {
     padding-top: 42px;
 }
 .header-banner {
-    background: url(/afrianska-landing/page-2/header-img/banner.png);
+    background: url(header-img/banner.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -129,6 +129,7 @@ article {
     border: none;
     outline: none;
     background: #5A98D0;
+    color: #fff;
     filter: drop-shadow(5px 10px 20px rgba(16, 112, 177, 0.2));
 }
 .maps {
