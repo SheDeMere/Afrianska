@@ -1,0 +1,222 @@
+@font-face {
+    font-family: 'Gilroy';
+    src: local('fonts/Gilroy Light'), local('Gilroy-Light'),
+        url('fonts/Gilroy-Light.woff2') format('woff2'),
+        url('fonts/Gilroy-Light.woff') format('woff'),
+        url('fonts/Gilroy-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+  }
+body {
+    margin: 0;
+    font-family: gilroy;
+}
+.header-top {
+    display: flex;
+    justify-content: space-between;
+}
+.header-width {
+    width: 1200px;
+    margin: auto;
+    padding-top: 42px;
+}
+.header-banner {
+    background: url(/afrianska-landing/page-2/header-img/banner.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+h1 {
+    margin: 0;
+    padding-top: 50px;
+    padding-bottom: 16px;
+    color: #fff;
+    font-size: 44px;
+    text-align: center;
+}
+.subtitle {
+    color: #fff;
+    font-size: 20px;
+    padding-bottom: 50px;
+    width: 780px;
+    padding-top: 10px;
+    margin: auto;
+    text-align: center;
+}
+article {
+    margin-top: 120px;
+}
+.container {
+    width: 940px;
+    margin: auto;
+    color: #1F3F68;
+}
+.about {
+    display: flex;
+    justify-content: space-between;
+}
+.call-info {
+    width: 300px;
+}
+.subtitles {
+    width: 299px;
+}
+.img-1 {
+    margin-bottom: 71px;
+}
+.titile-address {
+    margin-top: 0;
+}
+.phone-block {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.phone-info img, .service-info img{
+    position: relative;
+    top: 4px;
+    padding-right: 6px
+}
+.call-info {
+    margin-top: 100px;
+}
+.message-block {
+    width: 540px;
+    margin: auto;
+    background: #FFFFFF;
+    box-shadow: 5px 10px 50px rgba(16, 112, 177, 0.2);
+    border-radius: 10px;
+    text-align: center;
+    margin: 0;
+}
+.message-block p {
+    display: flex;
+    margin-left: 54px;
+}
+.send-title {
+    font-size: 20px;
+    margin: 0;
+    padding-top: 56px;
+    padding-bottom: 48px;
+    display: flex;
+    margin-left: 54px; 
+}
+.input-sms {
+    width: 428px;
+    height: 72px;
+    padding-left: 15px;
+    border: solid 1px;
+    border-color: #356EAD;
+    border-radius: 10px;
+    outline: none;
+    box-sizing: border-box;
+    margin-bottom: 20px
+}
+.input-sms-2 {
+    width: 428px;
+    height: 144px;
+    border: solid 1px;
+    border-color: #356EAD;
+    border-radius: 10px;
+    outline: none;
+    padding-left: 15px;
+    box-sizing: border-box;
+}
+.button-sms {
+    margin-top: 72px;
+    margin-bottom: 56px;
+    width: 428px;
+    height: 72px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background: #5A98D0;
+    filter: drop-shadow(5px 10px 20px rgba(16, 112, 177, 0.2));
+}
+.maps {
+    width: 100%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.blue-footer {
+    width: 85%;
+    background: #316099;
+    font-family: gilroy;
+    color: #fff;
+    border-top-right-radius: 500px;
+}
+.blue-footer-width {
+    width: 940px;
+    margin: auto;
+}
+.footer-top-2 {
+    display: flex;
+    justify-content: space-between;
+}
+.blue-footer-title {
+    font-size: 36px;
+    color: #fff;
+    width: 317px;
+    margin: 0;
+    padding-top: 100px;
+}
+.blue-footer-subtitle {
+    width: 460px;
+    margin: 0;
+    padding-top: 20px;
+}
+.footer-button {
+    height: 56px;
+    width: 220px;
+    background-color: #5A98D0;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    color: #fff;
+    margin-top: 165px;
+    cursor: pointer;
+}
+.hr-1 {
+    width: 96%;
+    color: #fff;
+    position: relative;
+    left: -25%;
+    margin-top: 50px;
+}
+.footer-bottom-info {
+    display: flex;
+    width: 940px;
+    margin: auto;
+    padding-top: 50px;
+    justify-content: space-between;
+    
+}
+.logo-footer {
+    display: flex;
+}
+.logo-footer-img {
+    height: 100%;
+    padding-right: 10px;
+}
+.blocks-item p {
+    width: 310px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    font-size: 20px
+}
+.blocks-item-2 p {
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+.blocks-item-3 p {
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+.footer-bottom-gray-text {
+    font-size: 18px;
+    color: #fff;
+    font-family: gilroy;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 10px
+}
